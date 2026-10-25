@@ -1,0 +1,15 @@
+--- extree.c
++++ extree.c
+@@ -299,8 +299,10 @@
+         break;
+ 
+     case EX_ERR:
+-        /* Copy */
+-        res = ex_err(tp->data.child.left, tp->cp);
++        /* Copy.  The child must be deep-copied (via evaluate): the
++           original tree is freed by the caller, and sharing the child
++           pointer left a dangling reference (use-after-free). */
++        res = ex_err(tp->data.child.left ? evaluate(tp->data.child.left, undef) : NULL, tp->cp);
+         break;
+ 
+     case EX_ADD:

@@ -1,0 +1,11 @@
+--- assemble.c
++++ assemble.c
+@@ -263,6 +263,8 @@
+             cp = ncp;
+ 
+             free(label);               /* Don't need this hanging around anymore */
++            label = NULL;              /* the illegal-opcode fall-through at the
++                                          bottom frees it again otherwise */
+ 
+             switch (op->section->type) {
+             case SECTION_PSEUDO:

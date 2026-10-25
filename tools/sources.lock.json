@@ -1,0 +1,14 @@
+{
+  "adarkroom": {
+    "url": "https://github.com/doublespeakgames/adarkroom.git",
+    "commit": "1fada4620b6c66bd07bf15a3f1eb8223df8bc1d7"
+  },
+  "macro11": {
+    "url": "https://github.com/shattered/macro11.git",
+    "commit": "e35df877f996c9056a1a8c4ca919472b5ed8d0a4"
+  },
+  "ukncbtl": {
+    "url": "https://github.com/nzeemin/ukncbtl-qt.git",
+    "commit": "3545c415756e0ec4e854599890792c663ac10bef"
+  }
+}
