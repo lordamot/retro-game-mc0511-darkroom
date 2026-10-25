@@ -1,0 +1,52 @@
+.idea
+.vscode
+
+# Generated game images, listings, test evidence and host tool builds.
+/build/
+/tmp/
+/bin/
+/external/
+
+# External game checkout and supplied loader reference material.
+# Keep only the RT-11 macro library required by our assembler invocation.
+/orig/adarkroom/
+/orig/loader/*
+!/orig/loader/source/
+/orig/loader/source/*
+!/orig/loader/source/SYSMAC.SML
+
+# Compiled objects, executables, dumps and generated disk images.
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.bin
+*.sav
+*.SAV
+*.dsk
+*.DSK
+# Immutable supplied system input, not a generated release disk.
+!/orig/RT11BASE.DSK
+
+# Python and JavaScript caches/dependencies.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+node_modules/
+
+# Editor and desktop files, matching the upstream game's conventions.
+.settings/
+.idea/
+*.TODO
+*.mo
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
