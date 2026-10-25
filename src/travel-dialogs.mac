@@ -1,0 +1,51 @@
+; Explicit acknowledgement at combat entry and after expedition defeat.
+; Scene prose stays in the saved scene window; no transient text pointers.
+TR_OPEN:
+ MOV R0,TR_MODE
+ CLR SELECTED
+ CALL SV_CLEAR
+ ; Ignore presses queued during scene I/O. A new Enter must acknowledge.
+ MOV KEY_SERIAL,LAST_KEY
+ CLR REPEAT_CD
+ MOV #1,DIRTY
+ RETURN
+TR_INPUT:
+ CMP R0,#153
+ BNE 9$
+ CLR TR_MODE
+ CALL SV_CLEAR
+ MOV CLOCK,LAST_CLOCK
+ CLR REPEAT_CD
+9$: RETURN
+TR_DRAW:
+ CALL SCREEN_CLEAR
+ CALL LOG_WHITE
+ MOV #18.,R0
+ MOV #7,R1
+ CALL AT
+ MOV @#SCENE_BASE,R1
+ CALL PUTS
+ MOV #18.,R0
+ MOV #9.,R1
+ CALL AT
+ MOV @#SCENE_BASE+26.,R1
+ CALL PUTS
+ CMP TR_MODE,#1
+ BNE 1$
+ MOV #18.,R0
+ MOV #14.,R1
+ CALL AT
+ MOV #S_FIGHT_READY,R1
+ CALL PUTS
+1$: MOV #38.,R0
+ MOV #16.,R1
+ CALL AT
+ MOV #S_FIGHT_BUTTON,R1
+ CMP TR_MODE,#1
+ BEQ 2$
+ MOV #S_DEFEAT_BUTTON,R1
+2$: CALL PUTS
+ MOV #16.,FOCUS_ROW
+ MOV #288.,FOCUS_COLUMN
+ MOV #1,FOCUS_LENGTH
+ JMP DRAW_VERSION

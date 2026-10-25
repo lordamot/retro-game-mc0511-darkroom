@@ -1,0 +1,342 @@
+; UKNC platform adapted from mc0511-elite. PPU code is position independent.
+PP_LOAD:
+ CLR PP_READY
+ MOVB #1,PP_CMD
+ MOV #<PP_END-PP_START>/2+PP_SAVE_WORDS,PP_SIZE
+ CALL PP_SEND
+1$: CMPB PP_ERR,#-1
+ BEQ 1$
+ TSTB PP_ERR
+ BNE 9$
+ MOV PP_ADDR,PP_DEST
+ MOVB #20,PP_CMD
+ MOV #PP_START,PP_SIZE
+ MOV #<PP_END-PP_START>/2,PP_COUNT
+ CALL PP_SEND
+ MOVB #30,PP_CMD
+ MOV PP_DEST,PP_ADDR
+ CALL PP_SEND
+2$: TST PP_READY
+ BEQ 2$
+ CLC
+ RETURN
+9$: SEC
+ RETURN
+PP_UNLOAD:
+ MOVB #30,PP_CMD
+ MOV PP_DEST,PP_ADDR
+ ADD #PP_RESTORE-PP_START,PP_ADDR
+ CALL PP_SEND
+1$: TST PP_READY
+ BNE 1$
+ MOV PP_DEST,PP_ADDR
+ MOVB #2,PP_CMD
+ CALL PP_SEND
+2$: CMPB PP_ERR,#-1
+ BEQ 2$
+ ; Form feed clears the restored firmware terminal, including cursor state.
+3$: TSTB @#177564
+ BPL 3$
+ MOVB #14,@#177566
+ CLR R0
+4$: SOB R0,4$
+ RETURN
+PP_SEND:
+ MOVB #-1,PP_ERR
+ MOV #PP_PARAMS,R1
+ MOV #5,R3
+ BR 2$
+1$: MOVB (R1)+,@#176676
+2$: TSTB @#176674
+ BPL 2$
+ SOB R3,1$
+ RETURN
+PP_ERR: .BYTE -1
+PP_CMD: .BYTE 1
+ .WORD 32
+PP_ADDR: .WORD 0
+PP_SIZE: .WORD 0
+PP_COUNT: .WORD 0
+PP_PARAMS: .WORD PP_ERR,-1
+PP_DEST: .WORD 0
+PP_READY: .WORD 0
+KEY_CODE: .WORD 0
+KEY_SERIAL: .WORD 0
+CLOCK: .WORD 0
+KEY_HELD: .WORD 0
+
+PP_SAVE_WORDS = <7030-2300>/2
+PP_START:
+ MFPS -(SP)
+ MTPS #340
+ MOV R0,-(SP)
+ MOV R1,-(SP)
+ MOV R2,-(SP)
+ MOV R3,-(SP)
+ MOV @#100,PP_OLDTIMER
+ MOV @#300,PP_OLDKEY
+ MOV @#177010,PP_OLDADDR
+ MOV @#177016,PP_OLDSPRITE
+ MOV @#177020,PP_OLDBG0
+ MOV @#177022,PP_OLDBG1
+ MOV @#177026,PP_OLDMASK
+ MOV PC,R1
+ ADD #PP_BACKUP-.,R1
+ MOV #2300,R0
+ MOV #PP_SAVE_WORDS,R2
+10$: MOV (R0)+,(R1)+
+ SOB R2,10$
+ ; Same firmware display-chain changes as the old boot, now reversible.
+ MOV #146000,@#2470
+ MOV #177735,@#2472
+ MOV #6742,@#2456
+ MOV #2462,@#7026
+ MOV #77407,@#2460
+ MOV PC,R0
+ ADD #PP_KEY-.,R0
+ MOV R0,@#300
+ MOV PC,R0
+ ADD #PP_TIMER-.,R0
+ MOV R0,@#100
+ CLR @#2400
+ CLR @#2402
+ CLR @#177020
+ CLR @#177022
+ CLR @#177026
+ CLR @#177016
+ MOV #100000,@#177010
+ MOV #23040.,R1
+1$: MOV #377,@#177024
+ INC @#177010
+ SOB R1,1$
+ MOV #100000,R0
+ MOV #2410,R1
+ MOV #24.,R2
+ ; 56 bytes per text row: palette tag on scanline 0, ten ordinary
+ ; tags, then parameters on blank scanline 11 for the following row.
+ ; Both four-word tags are eight-byte aligned. The rest of video is unchanged.
+2$: MOV #7400,(R1)+
+ MOV #3417,(R1)+ ; index 4 white, index 6 gray (disabled glyphs/frames)
+ MOV R0,(R1)+
+ ADD #80.,R0
+ MOV R1,(R1)
+ ADD #2,(R1)+
+ MOV #10.,R3
+21$: MOV R0,(R1)+
+ ADD #80.,R0
+ MOV R1,(R1)
+ ADD #2,(R1)+
+ SOB R3,21$
+ BIS #2,-2(R1) ; following tag sets parameters
+ CLR (R1)+
+ MOV #7,(R1)+ ; all channels at full intensity by default
+ MOV R0,(R1)+
+ ADD #80.,R0
+ MOV R1,(R1)
+ ADD #10,(R1)+ ; next aligned tag, palette flags 6
+ SOB R2,2$
+ MOV #2416,-2(R1)
+ MOV #2416,@#2406
+ MOV #7,@#2372
+ ; Plane 1 is palette index 2: bright white, index 0 black.
+ MOV #7400,@#2400
+ CLR @#2402
+ MOV #PP_READY/2,@#177010
+ MOV #1,@#177014
+ MOV PP_OLDADDR,@#177010
+ MOV (SP)+,R3
+ MOV (SP)+,R2
+ MOV (SP)+,R1
+ MOV (SP)+,R0
+ MTPS (SP)+
+ RETURN
+PP_RESTORE:
+ MFPS -(SP)
+ MTPS #340
+ MOV R0,-(SP)
+ MOV R1,-(SP)
+ MOV R2,-(SP)
+ MOV PP_OLDTIMER,@#100
+ MOV PP_OLDKEY,@#300
+ MOV PC,R0
+ ADD #PP_BACKUP-.,R0
+ MOV #2300,R1
+ MOV #PP_SAVE_WORDS,R2
+1$: MOV (R0)+,(R1)+
+ SOB R2,1$
+ MOV PP_OLDSPRITE,@#177016
+ MOV PP_OLDBG0,@#177020
+ MOV PP_OLDBG1,@#177022
+ MOV PP_OLDMASK,@#177026
+ MOV #PP_READY/2,@#177010
+ CLR @#177014
+ MOV PP_OLDADDR,@#177010
+ MOV (SP)+,R2
+ MOV (SP)+,R1
+ MOV (SP)+,R0
+ MTPS (SP)+
+ RETURN
+PP_KEY:
+ MOV R0,-(SP)
+ MOVB @#177702,R0
+ TSTB R0
+ BMI 2$
+ BIC #177400,R0
+ MOV R0,PP_HELD
+ MOV R0,PP_KEYCODE
+ INC PP_KEYSEQ
+ BR 1$
+2$: BIC #177760,R0
+ MOV PP_HELD,-(SP)
+ BIC #177760,(SP)
+ CMP R0,(SP)+
+ BNE 1$
+ CLR PP_HELD
+1$: MOV (SP)+,R0
+ RTI
+PP_TIMER:
+ MOV R0,-(SP)
+ MOV R1,-(SP)
+ MOV R2,-(SP)
+ MOV R3,-(SP)
+ MOV @#177010,-(SP)
+ MOV #KEY_CODE/2,@#177010
+ MOV PP_KEYCODE,@#177014
+ INC @#177010
+ MOV PP_KEYSEQ,@#177014
+ INC @#177010
+ INC PP_CLOCK
+ MOV PP_CLOCK,@#177014
+ INC @#177010
+ MOV PP_HELD,@#177014
+ ; A candidate save uses visible RAM outside the centered window as staging.
+ ; Keep rows 9..14 and the footer visible; hide all other rows
+ ; before CPU writes there, with an acknowledgement to prevent garbage flashes.
+ MOV #SV_HIDE/2,@#177010
+ MOV @#177014,R0
+ CMP R0,PP_HIDDEN
+ BEQ 51$
+ MOV R0,PP_HIDDEN
+ MOV #2410,R1
+ MOV #24.,R2
+5$: MOV #7400,(R1)
+ MOV #3417,2(R1)
+ TST R0
+ BEQ 50$
+ CMP R2,#1
+ BEQ 50$
+ CMP R2,#15.
+ BHI 49$
+ CMP R2,#10.
+ BHIS 50$
+49$: CLR (R1)
+ CLR 2(R1)
+50$: ADD #56.,R1
+ SOB R2,5$
+ MOV #SV_ACK/2,@#177010
+ MOV R0,@#177014
+51$: TST PP_HIDDEN
+ BNE 52$
+ ; Change only the five log rows. No pixel masking or font destruction.
+ MOV #LOG_SHADE/2,@#177010
+ MOV #2410+<18.*56.>,R1
+ MOV #5,R2
+2$: MOV @#177014,R0
+ CMP R0,#4
+ BLOS 3$
+ MOV #4,R0 ; CPU state may not be initialized yet during PPU startup
+3$:
+ ASL R0
+ MOV PC,R3
+ ADD #PP_LOGPALETTE-.,R3
+ ADD R0,R3
+ MOV (R3),(R1)
+ MOV 10.(R3),-6(R1) ; parameters on preceding blank scanline
+ INC @#177010
+ ADD #56.,R1
+ SOB R2,2$
+52$: TST @#7130
+ BEQ 1$
+ DEC @#7130
+ BNE 1$
+ MOV @#7132,R0
+ CALL @R0
+1$: MOV (SP)+,@#177010
+ MOV (SP)+,R3
+ MOV (SP)+,R2
+ MOV (SP)+,R1
+ MOV (SP)+,R0
+ RTI
+; Palette index 2 is 0000/0700/0F00 hex; equal RGB attenuation gives
+; actual grayscale levels 0, 96, 128, 223, 255 in the bundled emulator.
+PP_LOGPALETTE: .WORD 0,3400,3400,7400,7400
+PP_LOGPARAMS: .WORD 7,0,7,0,7
+PP_HIDDEN: .WORD 0
+PP_HELD: .WORD 0
+PP_KEYCODE: .WORD 0
+PP_KEYSEQ: .WORD 0
+PP_CLOCK: .WORD 0
+PP_OLDTIMER: .WORD 0
+PP_OLDKEY: .WORD 0
+PP_OLDADDR: .WORD 0
+PP_OLDSPRITE: .WORD 0
+PP_OLDBG0: .WORD 0
+PP_OLDBG1: .WORD 0
+PP_OLDMASK: .WORD 0
+PP_END:
+PP_BACKUP = PP_END
+
+; Nonzero maximal 16-bit xorshift. R0 random 0..32767; preserves R1..R5.
+RANDOM:
+ MOV SEED,R0
+ ASL R0
+ ASL R0
+ ASL R0
+ ASL R0
+ ASL R0
+ ASL R0
+ ASL R0
+ XOR R0,SEED
+ MOV SEED,R0
+ CLC
+ ROR R0
+ CLC
+ ROR R0
+ CLC
+ ROR R0
+ CLC
+ ROR R0
+ CLC
+ ROR R0
+ CLC
+ ROR R0
+ CLC
+ ROR R0
+ CLC
+ ROR R0
+ CLC
+ ROR R0
+ XOR R0,SEED
+ MOV SEED,R0
+ ASL R0
+ ASL R0
+ ASL R0
+ ASL R0
+ ASL R0
+ ASL R0
+ ASL R0
+ ASL R0
+ XOR R0,SEED
+ MOV SEED,R0
+ BIC #100000,R0
+ RETURN
+; R1 positive range -> R0 uniform remainder. Clobbers R1,R2.
+RAND_N:
+ MOV R1,R2
+ CALL RANDOM
+ MOV R0,R1
+ CLR R0
+ DIV R2,R0
+ MOV R1,R0
+ RETURN
+SEED: .WORD 23071

@@ -1,0 +1,4 @@
+; Visible release identifier. Keep this exact spelling/case on the game screen.
+GAME_VERSION: .ASCIZ /V1.0.0/
+GAME_VERSION_LENGTH = .-GAME_VERSION-1
+ .EVEN

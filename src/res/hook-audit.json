@@ -1,0 +1,494 @@
+{
+  "encounters/0/isAvailable": {
+    "sha256": "474908b171b3d2eab73690b4235777e9b5077908e8b24312f2f90b07b5821d0f",
+    "implementation": "src/world.mac"
+  },
+  "encounters/1/isAvailable": {
+    "sha256": "ca4c2522daea3414d25d90c4079f77a28ee6628163fc8e08a5d5255e2a242686",
+    "implementation": "src/world.mac"
+  },
+  "encounters/2/isAvailable": {
+    "sha256": "aec885de0fd601fcdecf354dc6e342e46db0a4d092cf5c60a9c08943bbb3052d",
+    "implementation": "src/world.mac"
+  },
+  "encounters/3/isAvailable": {
+    "sha256": "aec885de0fd601fcdecf354dc6e342e46db0a4d092cf5c60a9c08943bbb3052d",
+    "implementation": "src/world.mac"
+  },
+  "encounters/4/isAvailable": {
+    "sha256": "5fa419582ca2c30d5a0d07298fb9b8349278903bce71d75bb7d9b4193d607ec7",
+    "implementation": "src/world.mac"
+  },
+  "encounters/5/isAvailable": {
+    "sha256": "a64a802988233bfcc5e5e59f809879fb7478d3dc61b0873e6acb316858f036bf",
+    "implementation": "src/world.mac"
+  },
+  "encounters/6/isAvailable": {
+    "sha256": "5fa419582ca2c30d5a0d07298fb9b8349278903bce71d75bb7d9b4193d607ec7",
+    "implementation": "src/world.mac"
+  },
+  "encounters/7/isAvailable": {
+    "sha256": "4372fc6b653e7713777d99d62dd980199e22203586e7d4a5194c4534b278765d",
+    "implementation": "src/world.mac"
+  },
+  "encounters/8/isAvailable": {
+    "sha256": "238b2155ce739f66a7f2f4bbdb93f32e982cc8a87c20c355cc3c2a3af49dafea",
+    "implementation": "src/world.mac"
+  },
+  "encounters/9/isAvailable": {
+    "sha256": "34af7474ba7db3feb9137d8c2ca0383cff2bbaf0557b178e476c03e41c86edb8",
+    "implementation": "src/world.mac"
+  },
+  "encounters/10/isAvailable": {
+    "sha256": "944eb16c345e6000884120c3588571774a7a80322769a64a4e4805fdb0e8d684",
+    "implementation": "src/world.mac"
+  },
+  "setpieces/outpost/scenes/start/onLoad": {
+    "sha256": "17d2ce4067db8812b1438d13797f171f53438eeb797292370607f5df3811fcc5",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/swamp/scenes/talk/onLoad": {
+    "sha256": "3b965e59cfee066aed5ea2af7b26a0ad536531c63e7aa6140b454ba100162128",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/cave/scenes/end1/onLoad": {
+    "sha256": "79e63e23374bab3af1393209b7f0965dde3ec81f20ea2eceb856ae067e58512c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/cave/scenes/end2/onLoad": {
+    "sha256": "79e63e23374bab3af1393209b7f0965dde3ec81f20ea2eceb856ae067e58512c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/cave/scenes/end3/onLoad": {
+    "sha256": "79e63e23374bab3af1393209b7f0965dde3ec81f20ea2eceb856ae067e58512c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/town/scenes/end1/onLoad": {
+    "sha256": "79e63e23374bab3af1393209b7f0965dde3ec81f20ea2eceb856ae067e58512c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/town/scenes/end2/onLoad": {
+    "sha256": "79e63e23374bab3af1393209b7f0965dde3ec81f20ea2eceb856ae067e58512c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/town/scenes/end3/onLoad": {
+    "sha256": "79e63e23374bab3af1393209b7f0965dde3ec81f20ea2eceb856ae067e58512c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/town/scenes/end4/onLoad": {
+    "sha256": "79e63e23374bab3af1393209b7f0965dde3ec81f20ea2eceb856ae067e58512c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/town/scenes/end5/onLoad": {
+    "sha256": "79e63e23374bab3af1393209b7f0965dde3ec81f20ea2eceb856ae067e58512c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/town/scenes/end6/onLoad": {
+    "sha256": "79e63e23374bab3af1393209b7f0965dde3ec81f20ea2eceb856ae067e58512c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end1/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end2/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end3/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end4/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end5/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end6/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end7/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end8/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end9/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end10/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end11/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end12/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end13/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end14/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/city/scenes/end15/onLoad": {
+    "sha256": "3f9f4f7cb0637e00a99d73d430dd927fa3223a5e04611bc338491df20e05a4cd",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/house/scenes/supplies/onLoad": {
+    "sha256": "9fff0c8815b47ef9102be19f2434fff75a041e57ea609cd2ba9e60c64045cd7c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/house/scenes/medicine/onLoad": {
+    "sha256": "c3063cc2c2d74638088d3d56e1e025fc0e0f422adc56cce07bdd924825d36eaf",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/house/scenes/occupied/onLoad": {
+    "sha256": "c3063cc2c2d74638088d3d56e1e025fc0e0f422adc56cce07bdd924825d36eaf",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/battlefield/scenes/start/onLoad": {
+    "sha256": "c3063cc2c2d74638088d3d56e1e025fc0e0f422adc56cce07bdd924825d36eaf",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/borehole/scenes/start/onLoad": {
+    "sha256": "c3063cc2c2d74638088d3d56e1e025fc0e0f422adc56cce07bdd924825d36eaf",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/ship/scenes/start/onLoad": {
+    "sha256": "863607bf3e0fde966e78cf32e910d199cbad080b458444609d8fc4e320cb20c6",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/sulphurmine/scenes/cleared/onLoad": {
+    "sha256": "0f3d619bd4a68d08c6b74d33e8b5e6dafa858e9e7193e7749c020643fdfa1f9b",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/coalmine/scenes/cleared/onLoad": {
+    "sha256": "52ec2d84687b074eecbe9e9d9212206f7b31a9426b99b56c60a3d60e23116322",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/ironmine/scenes/cleared/onLoad": {
+    "sha256": "f4c3c9f57ae1349b0560829ac469b30afabb17fba1e99c0be794492147a749e1",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "setpieces/cache/scenes/exit/onLoad": {
+    "sha256": "a32b44415518e0751abf84746ac4d82949eb0ffa3ace78dbcff146f4185c708a",
+    "implementation": "Visited marker retained; Prestige.collectStores omitted: no persistent runs/cache"
+  },
+  "executioner/executioner-intro/scenes/7/onLoad": {
+    "sha256": "707f986a85961b433f8f41af3a41b2a07408fbdec0fdb6bd9a2f4e6f07f6106b",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-antechamber/scenes/start/buttons/engineering/available": {
+    "sha256": "cc7cf969af328c0176ca21cd098df94f5febec1ac1bb8bbf2e129b018da06112",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-antechamber/scenes/start/buttons/medical/available": {
+    "sha256": "8eef2308daa70dda9a0238c24b77b95eaed34e1d5d688b0481727e58e51ae6c8",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-antechamber/scenes/start/buttons/martial/available": {
+    "sha256": "4488fcd7a84245a756a89b4bfdb000481886143fe95b1022c0d7136222be48e0",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-antechamber/scenes/start/buttons/command/available": {
+    "sha256": "b5e229f1e5ed67904a40b298f89d97a51723e8b30e83716a40bea7c044aeb546",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-engineering/scenes/4/buttons/use/onChoose": {
+    "sha256": "6ab33a717f07ba5533956ebaeae04e9a160e3645ae517b04449099f4f2529fe8",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-engineering/scenes/7/specials/0/action": {
+    "sha256": "be7e4717a36d87f3bb7bbf0a1bbe3a20d6860e084402af54f6c058e87cbc20b7",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-engineering/scenes/8/onLoad": {
+    "sha256": "36c5bfce9f48f2bc8e55e28ad8b5eaffb2c4d12bb7277a615c2fa145595dec44",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-martial/scenes/10/buttons/use/onChoose": {
+    "sha256": "6ab33a717f07ba5533956ebaeae04e9a160e3645ae517b04449099f4f2529fe8",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-martial/scenes/12/specials/0/action": {
+    "sha256": "01f1520da48b2c0b64702e2d83f4c2601753ddcef973465121c6e06e7e2a1586",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-martial/scenes/13/onLoad": {
+    "sha256": "e4db51bc35c259fe7fb5312d31f6d12056eda83e89b0484ecd1e9dde992552af",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-martial/scenes/7-1/buttons/scavenge/onChoose": {
+    "sha256": "1c32c73d08dc5a33a5631188ed63246626d8050c78eadfce445e44b32bbe4a77",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-medical/scenes/11/atHealth/40": {
+    "sha256": "d2213cb5b24d66768cd17192c260598f8f3273f94564d044f86de25435c622c0",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-medical/scenes/16/specials/0/action": {
+    "sha256": "b007b8f81ea522c24478da8946f8fb49a75e9531ea875954fd21526b85916be1",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-medical/scenes/17/onLoad": {
+    "sha256": "038c84aed638ab058e318835c5b3e2f33aa415e3851f4a9fadf01d6039ac499f",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "executioner/executioner-medical/scenes/5-1/atHealth/40": {
+    "sha256": "d2213cb5b24d66768cd17192c260598f8f3273f94564d044f86de25435c622c0",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-medical/scenes/6-1a/atHealth/40": {
+    "sha256": "d2213cb5b24d66768cd17192c260598f8f3273f94564d044f86de25435c622c0",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-medical/scenes/6-2a/atHealth/40": {
+    "sha256": "d2213cb5b24d66768cd17192c260598f8f3273f94564d044f86de25435c622c0",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-medical/scenes/14-1/atHealth/40": {
+    "sha256": "d2213cb5b24d66768cd17192c260598f8f3273f94564d044f86de25435c622c0",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-medical/scenes/13-2a/atHealth/40": {
+    "sha256": "d2213cb5b24d66768cd17192c260598f8f3273f94564d044f86de25435c622c0",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-medical/scenes/14-2/atHealth/40": {
+    "sha256": "d2213cb5b24d66768cd17192c260598f8f3273f94564d044f86de25435c622c0",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-command/scenes/6/onLoad": {
+    "sha256": "aeedd63af6a1656ddb3fc9fb98e225013a91f885a7ba4fe24225ef9009f31374",
+    "implementation": "LOAD_SCENE resets LAST_SPECIAL"
+  },
+  "executioner/executioner-command/scenes/6/specials/0/action": {
+    "sha256": "3aea2cabd34a10de340fd08cfcdc3a39a1294d9f720de926e347e20836a755f1",
+    "implementation": "src/events.mac: COMBAT_TICK / ATTACK"
+  },
+  "executioner/executioner-command/scenes/7/onLoad": {
+    "sha256": "ce8335d7efbeb1bac750d32d47179d1036a889dd4364f41886d5a7238a36a255",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/0/isAvailable": {
+    "sha256": "1efb4fca790b2b95dc85577daa81f6cd7cded988127971526231a72b3d1f72da",
+    "implementation": "src/village.mac"
+  },
+  "room/0/scenes/start/buttons/buyCompass/available": {
+    "sha256": "a0871868e230820e02656e1f907daf9b589b86d94cd18b8e5cbe35b88d422f86",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/1/isAvailable": {
+    "sha256": "db3b7368ca4bca6b46a82d0d341efe96ef42dbdfc3088e773a921911f77807ee",
+    "implementation": "src/village.mac"
+  },
+  "room/2/isAvailable": {
+    "sha256": "db3b7368ca4bca6b46a82d0d341efe96ef42dbdfc3088e773a921911f77807ee",
+    "implementation": "src/village.mac"
+  },
+  "room/2/scenes/scales/onLoad": {
+    "sha256": "948eed1d43ddbc1c9d1f21ee51034a6a38f063b15ffb96b634fdd83f257f09ad",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/2/scenes/teeth/onLoad": {
+    "sha256": "be34e2bbe890dce9afaaed4b1b4e8d7f7d5e7557b2339b55d6e3c16851d7a9e1",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/2/scenes/cloth/onLoad": {
+    "sha256": "71fa91a0a51b494ec01e75df2588550cda6a1b5f1ebba0d1ec1ddc38301f1706",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/3/isAvailable": {
+    "sha256": "c19c6d8ae0a60eba4c9a965ae0de3b06956088439b3bb093fb8c19702e1fc379",
+    "implementation": "src/village.mac"
+  },
+  "room/4/isAvailable": {
+    "sha256": "2f89ec9698b75282c0c8e7ee549c036e084873b2e7c8f60ceebb22787d7de03d",
+    "implementation": "src/village.mac"
+  },
+  "room/4/scenes/build/onLoad": {
+    "sha256": "fcf701a160fafa6f9d82c1060b5f32f2d6b47792dfa087ab197ec4c8b85db25f",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/5/isAvailable": {
+    "sha256": "db3b7368ca4bca6b46a82d0d341efe96ef42dbdfc3088e773a921911f77807ee",
+    "implementation": "src/village.mac"
+  },
+  "room/5/scenes/wood100/action": {
+    "sha256": "622779efd0845fb2cc4ee8619a684d018384b8426dfcdd7eb9bc667096c39aea",
+    "implementation": "E_GAMBLE schedules the 60-second return in VILLAGE_SECOND"
+  },
+  "room/5/scenes/wood100/onLoad": {
+    "sha256": "d82dd1d678442a35dcecd507e0d89a8ddca001a134e76bdf0d0f468205ed9bc5",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/5/scenes/wood500/action": {
+    "sha256": "4059e4f97afbd7dfa8a69f440e46e80c2a713d841aba39912050e7a0d2753b25",
+    "implementation": "E_GAMBLE schedules the 60-second return in VILLAGE_SECOND"
+  },
+  "room/5/scenes/wood500/onLoad": {
+    "sha256": "785d98c1537f340d4d6db082760a74640baaf2bbbbeb4ad4a9fadd6935436d7b",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/6/isAvailable": {
+    "sha256": "c19c6d8ae0a60eba4c9a965ae0de3b06956088439b3bb093fb8c19702e1fc379",
+    "implementation": "src/village.mac"
+  },
+  "room/6/scenes/fur100/action": {
+    "sha256": "47247df3173ca6685f3e2a71e4e9a97ee101dec1528e95dcbb6337392f1ac8ce",
+    "implementation": "E_GAMBLE schedules the 60-second return in VILLAGE_SECOND"
+  },
+  "room/6/scenes/fur100/onLoad": {
+    "sha256": "d82dd1d678442a35dcecd507e0d89a8ddca001a134e76bdf0d0f468205ed9bc5",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/6/scenes/fur500/action": {
+    "sha256": "059cfa8d41294696c17073811ccbe3ef1887d8cd21694ae3e1246ce69e972ee2",
+    "implementation": "E_GAMBLE schedules the 60-second return in VILLAGE_SECOND"
+  },
+  "room/6/scenes/fur500/onLoad": {
+    "sha256": "785d98c1537f340d4d6db082760a74640baaf2bbbbeb4ad4a9fadd6935436d7b",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/7/isAvailable": {
+    "sha256": "81e6eb098c52b621ed05e990c5b10133d7f3bb09c89405cf6d5043986729a20e",
+    "implementation": "src/village.mac"
+  },
+  "room/7/scenes/start/buttons/buyMap/available": {
+    "sha256": "88ade02d7efa14cd620afa306b5d974de73c63b2ea70106f56cf1528de789b2d",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/7/scenes/start/buttons/buyMap/onChoose": {
+    "sha256": "41f1a54178bc53b3dae440d82907c447b478aa2dc223dd410bb2ceedd17db110",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/7/scenes/start/buttons/learn/available": {
+    "sha256": "60d4a5ce5c8af8e68eddbe66742ac2065a723688d21c23cc0a49884d21b40ca1",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/7/scenes/start/buttons/learn/onChoose": {
+    "sha256": "b34fed825c22e59440e9a832c665847ba5ad71669964f071c6371fca9799880b",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/8/isAvailable": {
+    "sha256": "81e6eb098c52b621ed05e990c5b10133d7f3bb09c89405cf6d5043986729a20e",
+    "implementation": "src/village.mac"
+  },
+  "room/8/scenes/agree/buttons/evasion/available": {
+    "sha256": "dd28b8266e0b20898d6682ff00ff724e127961b65e5b0f030fb1cc3bbc2bceda",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/8/scenes/agree/buttons/evasion/onChoose": {
+    "sha256": "847d05369f65d8762f59c15cfc8c8f0d9699afe9c4fdc309ba657f6a7bf3ac1e",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/8/scenes/agree/buttons/precision/available": {
+    "sha256": "533b9727686be77224e3cb06d1d98d6760928ba99ae9e88babe94eca5bd22659",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/8/scenes/agree/buttons/precision/onChoose": {
+    "sha256": "bdccb8c732e9cee0e5a29a2a81210445f43b17b3b349ccedaad2ba314aa95745",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/8/scenes/agree/buttons/force/available": {
+    "sha256": "ce8aab0d6bcd49f01ac99786c07df7aa628433fa10efdea523d08cba2b0244c5",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/8/scenes/agree/buttons/force/onChoose": {
+    "sha256": "c2d159f5a0c6741df962ff6a5930c3e0b951a4f869b523b633e1ffd1671c66cb",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/9/isAvailable": {
+    "sha256": "38128fd11228ec32dbe8bc9b7564db88380a3d15c3c72fc60be60fbe61771a76",
+    "implementation": "src/village.mac"
+  },
+  "room/9/scenes/alloy/onLoad": {
+    "sha256": "163e412db246064aa68047ecd177a140610c2718d25fb32aa0bd0e5232bfdb41",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/9/scenes/cells/onLoad": {
+    "sha256": "b7c3285d3110f47962e1f9b75dd9dbd210196aead07952db9a828b74dc8c8856",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "room/9/scenes/scales/onLoad": {
+    "sha256": "f38e7e9fdab756b4b4b2143713d33c110f50882d0c240056bfc3ead5c506225a",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "outside/0/isAvailable": {
+    "sha256": "72ddc0b9f3ea935d1b4cd61b2d2d75a21c7b805932432e3cd85178d0b3b83ce5",
+    "implementation": "src/village.mac"
+  },
+  "outside/0/scenes/start/onLoad": {
+    "sha256": "05d1fae22662ab804707c1f502888a101dad0223611358a9581c0a4e509a608d",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "outside/1/isAvailable": {
+    "sha256": "ec058b42d5645122c1ee6c85c5c3c2c26d58b79848170e6bde7658ad1576097c",
+    "implementation": "src/village.mac"
+  },
+  "outside/1/scenes/start/onLoad": {
+    "sha256": "5fbe766f4aeed3d98e7aa532ea5b24e499b84aedc32a040a95cc6bf237289c34",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "outside/2/isAvailable": {
+    "sha256": "de008f30bf1b39f93064033cacc4e8bdb6c71bad1b98f985bae18298eb564d03",
+    "implementation": "src/village.mac"
+  },
+  "outside/2/scenes/death/onLoad": {
+    "sha256": "aaa2fb90d7b5161962791dfceeb24986a4a69fd1641aa873cbbfdc0109153f82",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "outside/3/isAvailable": {
+    "sha256": "bdee85a694ecc564a2ce4f214dd6e8ba8fea1cf7b65d1298feac85034893640d",
+    "implementation": "src/village.mac"
+  },
+  "outside/3/scenes/healed/onLoad": {
+    "sha256": "30a64bb11383207713b640511f2f32675e7f4506bd8af70e5810d444f863ec41",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "outside/3/scenes/death/onLoad": {
+    "sha256": "5a4855c8acf7eff47c903f0608656152a715242868f7984a53f04bf6118655d1",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "outside/4/isAvailable": {
+    "sha256": "1033647ce6bcc2b7da69db5324bde4b841414b8318e6a5911efb2e3b971091c8",
+    "implementation": "src/village.mac"
+  },
+  "outside/4/scenes/start/onLoad": {
+    "sha256": "f343ec9097bb37bdced6ef4f224583d10791aca04358caf5345e8a030e14112c",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "outside/5/isAvailable": {
+    "sha256": "aab7e862f9105cb57cdc350d317b7f9e068e23db33789f225d5aca451240ce6a",
+    "implementation": "src/village.mac"
+  },
+  "outside/5/scenes/start/onLoad": {
+    "sha256": "6d7d71ecacb943198fc4319d35b6d48347e8fc964b045d06ee39b59bfee95774",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "global/0/isAvailable": {
+    "sha256": "43e07bf74e470ce91beef8fcc7ff36c3a1bccdc201520a1ee12bba0ee2aa14ce",
+    "implementation": "src/village.mac"
+  },
+  "global/0/scenes/hang/onLoad": {
+    "sha256": "45e1f99fb2cbeed8d0e1f21f7309ee8cc4cdba15b85e0f25a60d47092cdd7b67",
+    "implementation": "src/events.mac + tools/generate.py"
+  },
+  "global/0/scenes/spare/onLoad": {
+    "sha256": "02f45be643d3350c7e766f72b1bf3e66d78e97d6cf747bae10b30490aff8eeab",
+    "implementation": "src/events.mac + tools/generate.py"
+  }
+}

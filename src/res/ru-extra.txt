@@ -1,0 +1,447 @@
+# Additional Russian translations for strings absent from upstream lang/ru.
+| 
+300 wood|300 дров
+A Crashed Ship|Разбитый корабль
+A Deserted Town|Покинутый городок
+A Destroyed Village|Разрушенная деревня
+A Forgotten Battlefield|Забытое поле боя
+A Huge Borehole|Огромная скважина
+A Ravaged Battleship|Искалеченный линкор
+A Ruined City|Город в руинах
+A Two-Headed Creature|Двуглавая тварь
+An Old House|Старый дом
+Command Deck|Командная палуба
+Engineering Wing|Инженерный отсек
+Martial Wing|Боевой отсек
+Medical Wing|Медицинский отсек
+The Coal Mine|Угольная шахта
+The Iron Mine|Железная шахта
+The Shady Builder|Подозрительный строитель
+The Sulphur Mine|Серная шахта
+a battered highway sign stands guard at the entrance to this once-great city.|На въезде в некогда великий город стоит потрепанный дорожный знак.
+a battle was fought here, long ago.|Когда-то здесь была битва.
+a beast charges out of a ransacked classroom.|Из разграбленного класса выскакивает зверь.
+a beast stands alone in an overgrown park.|В заросшем парке стоит одинокий зверь.
+a cacophony of decrepit machinery fills the room.|Комнату заполняет грохот дряхлых механизмов.
+a cave lizard attacks|Нападает пещерная ящерица.
+a destroyed village lies in the dust.|В пыли лежит разрушенная деревня.
+a dusty researcher clumsily hides in the shadows.|Покрытый пылью исследователь неуклюже прячется в тени.
+a few belongings rest against the walls.|У стен лежат чьи-то вещи.
+a few dusty corpses can be seen further down, but this deck appears to have been spared most of the combat.|Вдали видны запыленные тела. Большая часть боев обошла эту палубу.
+a few items are scattered on the ground.|На земле разбросаны вещи.
+a few useful items can be scavenged.|Можно собрать несколько полезных вещей.
+a fight, maybe.|Возможно, здесь дрались.
+a fire rampages through one of the huts, destroying it.|Огонь пожирает одну из хижин.
+a frail man stands defiantly, blocking the path.|Хрупкий человек вызывающе преграждает путь.
+a giant lizard shambles forward|Огромная ящерица ковыляет вперед.
+a green cross barely visible behind grimy windows.|За грязными окнами едва виден зеленый крест.
+a grizzled soldier attacks, waving a bayonet.|Седой солдат нападает, размахивая штыком.
+a handful of hypos. life in a vial.|Горсть инъекторов. Жизнь во флаконе.
+a huge arthropod lunges from the shadows, its mandibles thrashing.|Из тени бросается огромное членистоногое, щелкая жвалами.
+a huge hole is cut deep into the earth, evidence of the past harvest.|Глубокая дыра в земле - след давней жатвы.
+a huge lizard scrambles up out of the darkness of an old metro station.|Из темноты старого метро вылезает огромная ящерица.
+a large beast charges out of the dark|Большой зверь бросается из темноты.
+a large bird nests at the top of the stairs.|Наверху лестницы гнездится большая птица.
+a large creature lunges, muscles rippling in the torchlight|Огромная тварь бросается вперед. В свете факела перекатываются мышцы.
+a large hatch grinds open, and the wind rushes in.|Большой люк со скрежетом открывается, впуская ветер.
+a large hatch opens into a wide corridor.|За большим люком широкий коридор.
+a large man attacks, waving a bayonet.|Крупный мужчина нападает, размахивая штыком.
+a large shanty town sprawls across the streets.|По улицам раскинулся поселок лачуг.
+a madman attacks, screeching.|Безумец нападает с визгом.
+a maintenance panel is embedded in the wall next to a large sealed door.|Рядом с большой запертой дверью встроена панель обслуживания.
+a man charges down the hall, a rusty blade in his hand|По коридору бежит человек с ржавым клинком.
+a man joins the fight|К бою присоединяется человек.
+a man stands over a dead wanderer. notices he's not alone.|Человек стоит над мертвым странником. Он замечает, что не один.
+a masked soldier rounds the corner, gun drawn|Из-за угла выходит солдат в маске с оружием наготове.
+a medical drone wheels out of control.|Медицинский дрон беспорядочно мечется.
+a military perimeter is set up around the mine.|Вокруг шахты выставлено военное оцепление.
+a mobile defence platform trundles around the corner.|Из-за угла выкатывается подвижная оборонная платформа.
+a mutated beast leaps from its cell.|Из камеры выпрыгивает мутировавший зверь.
+a pack of lizards rounds the corner.|Из-за угла появляется стая ящериц.
+a panicked scavenger bursts through the door, screaming.|Через дверь с криком врывается испуганный сборщик.
+a plague afflicts the village|Деревню поразила чума.
+a pristine medicine cabinet at the end of a hallway.|В конце коридора стоит нетронутый шкаф с лекарствами.
+a regenerative machine hums uncannily by one of the courses.|У одной из полос препятствий гудит регенератор.
+a scavenger waits just inside the door.|За дверью поджидает сборщик.
+a second soldier joins the fight.|К бою присоединяется второй солдат.
+a second soldier opens fire.|Второй солдат открывает огонь.
+a secure locker is set into one wall.|В стену встроен запертый шкаф.
+a shady builder passes through|Пришел подозрительный строитель.
+a shame to let what he'd found go to waste.|Жаль оставлять найденное им добро.
+a small basket of food is hidden under a park bench, with a note attached.|Под скамьей спрятана корзинка с едой и запиской.
+a small cache of supplies is tucked inside a rusting locker.|В ржавом шкафу спрятан небольшой запас припасов.
+a small knapsack hangs from a cluster of webs, a few feet from the floor.|Невысоко над полом в паутине висит маленький рюкзак.
+a small suburb lays ahead, empty houses scorched and peeling.|Впереди пригород. Пустые дома обгорели и облупились.
+a small supply cache is hidden at the back of the cave.|В глубине пещеры спрятаны припасы.
+a smooth, perfect sphere. its light is inextinguishable.|Гладкая идеальная сфера. Ее свет не гаснет.
+a snarling beast jumps out from behind a car.|Из-за машины выскакивает рычащий зверь.
+a soldier, alerted, opens fire.|Встревоженный солдат открывает огонь.
+a sound comes from the tunnel, just ahead.|Из туннеля впереди доносится звук.
+a sparring automaton, still fully function and crusted with timeworn blood, lunges forward.|Исправный тренировочный автомат, покрытый старой кровью, бросается вперед.
+a squat building up ahead.|Впереди приземистое здание.
+a squatter stands firmly in the doorway of a small hut.|В дверях маленькой хижины твердо стоит поселенец.
+a strange device sits on the floor. looks important.|На полу стоит странный прибор. Кажется важным.
+a swarm of rats rushes up the tunnel.|По туннелю несется стая крыс.
+a thug is waiting on the other side of the wall.|За стеной поджидает громила.
+a thug moves out of the shadows.|Из тени выходит громила.
+a tribe of elderly squatters is camped out in this ward.|В этой палате обосновалось племя пожилых поселенцев.
+a two-headed creature appears, the smaller head trembling|Появляется двуглавая тварь. Меньшая голова дрожит.
+a youth lashes out with a tree branch.|Юноша бьет веткой дерева.
+air whistles as the doors open. this section must have lower pressure than the rest of the ship.|Двери открываются со свистом воздуха. Давление в этом отсеке ниже.
+all residents in the hut perished in the fire.|Все обитатели хижины погибли в огне.
+always worked before, at least.|По крайней мере, раньше всегда работало.
+ambushed on the street.|Засада на улице.
+an ancient beast has made these ruins its home.|Древний зверь поселился в руинах.
+an automated assembly line performs its empty routines, long since deprived of materials.|Сборочная линия работает вхолостую. Материалы давно иссякли.
+an improvised shop is set up on the sidewalk.|На тротуаре устроена самодельная лавка.
+an old case is wedged behind a rock, covered in a thick layer of dust.|За камнем застрял старый ящик под толстым слоем пыли.
+an old house remains here, once white siding yellowed and peeling.|Стоит старый дом. Белая когда-то обшивка пожелтела и облезла.
+an old iron mine sits here, tools abandoned and left to rust.|Старая железная шахта. Брошенные инструменты ржавеют.
+an old man bursts through a door, wielding a scalpel.|Из двери выскакивает старик со скальпелем.
+an operative waits in ambush around the corner.|За углом поджидает боец.
+an overturned caravan is spread across the pockmarked street.|По изрытой улице разбросаны остатки опрокинутого каравана.
+an unfinished automaton whirs to life.|Незаконченный автомат оживает с жужжанием.
+ancient beast|Древний зверь
+another beast, draw by the noise, leaps out of a copse of trees.|На шум из рощи выскакивает еще один зверь.
+another checkpoint ahead, fitted with heavy doors.|Впереди еще один пост с тяжелыми дверями.
+another door at the end of the hall, sealed from this side.|В конце коридора еще одна дверь, запертая с этой стороны.
+approach|Подойти
+arms and munitions, relics from the war, are neatly arranged on the store-room floor.|На полу склада аккуратно разложены оружие и боеприпасы времен войны.
+as soon as the door is open a little bit, hundreds of tentacles erupt.|Едва дверь приоткрывается, наружу вырываются сотни щупалец.
+as the lights come online, so too do the defence systems.|Вместе со светом включается система обороны.
+assembly arms spark and jitter.|Сборочные манипуляторы искрят и дергаются.
+assembly arms spin wildly out of control.|Манипуляторы беспорядочно вращаются.
+at the back of the workshop, elevator doors twitch and buzz.|В глубине мастерской дергаются и гудят двери лифта.
+attack|Атаковать
+automated guardians still stalk the halls, unaware that their masters have long gone.|Автоматические стражи бродят по коридорам. Их хозяев давно нет.
+automated turret|Автоматическая турель
+battered technology from both sides lays dormant on the blasted landscape.|На выжженной земле покоится разбитая техника обеих сторон.
+behind the barricade, a few weapons lay abandoned.|За баррикадой брошено несколько единиц оружия.
+behind the door, a deformed figure awakes and attacks.|За дверью просыпается и нападает изуродованное существо.
+beneath the wanderer's rags, clutched in one of its many hands, a glint of steel.|Под лохмотьями странника в одной из множества рук блестит сталь.
+better to move without drawing attention.|Лучше не привлекать внимания.
+beyond the bulkhead is a small antechamber, seemingly untouched by scavengers.|За переборкой небольшой вестибюль, еще не тронутый сборщиками.
+bird must have liked shiney things.|Птица, должно быть, любила блестящие вещи.
+bits of them can be scavenged.|Можно собрать уцелевшие части.
+bleached bones are strewn about the entrance. many, deeply scored with jagged grooves.|У входа разбросаны белые кости. На многих глубокие рваные борозды.
+blow it down|Взорвать
+bodies and supplies from both sides litter the ground.|Земля усеяна телами и припасами обеих сторон.
+bodies litter the ground on either side.|По обе стороны лежат тела.
+broken medic|Сломанный медик
+broken streetlights stand, rusting. light hasn't graced this place in a long time.|Ржавеют разбитые фонари. Света здесь давно не было.
+but there is a cache of medicine under the floorboards.|Но под половицами спрятаны лекарства.
+camp fires burn by the entrance to the mine.|У входа в шахту горят костры.
+can't read the words.|Слова не разобрать.
+can't tell what left it here.|Не понять, кто оставил это здесь.
+castoff from the mammoth drills can still be found by the edges of the precipice.|По краям пропасти еще лежат обломки гигантских буров.
+charred bodies litter the ground.|На земле обугленные тела.
+clattering metal and old servos. something is coming...|Лязгает металл, скрипят приводы. Что-то приближается...
+clumsy machines, and easily avoided.|Машины неповоротливы. Обойти их легко.
+collected scraps spread across the floor like they fell from heaven.|Собранный хлам рассыпан по полу, словно упал с неба.
+command deck|Командный мостик
+containment cells arranged at the back of the room, all open.|В глубине комнаты ряд камер. Все открыты.
+continue right|Идти направо
+could put the scrap to good use.|Этому хламу можно найти применение.
+crew cabins flank the hall, devoid of life.|По обе стороны коридора пустые каюты экипажа.
+crude attempts have been made to cut into the walls.|Кто-то грубо пытался прорезать стены.
+debris is stacked in the corridor, forming a low barricade.|Обломки сложены поперек коридора в низкую баррикаду.
+deeper into the ship, the darkness seems almost to writhe.|В глубине корабля сама тьма словно извивается.
+defence turret|Защитная турель
+descend|Спуститься
+detour through the officer's lounge.|Обход через офицерскую кают-компанию.
+disintegrate|Испепелить
+documents are scattered down the hall, most charred and curled.|В коридоре разбросаны обугленные, скрученные документы.
+drew some attention with all that noise.|Шум привлек внимание.
+easily avoided.|Легко обойти.
+elevator doors open to a blasted corridor. debris covers the floor, piled into makeshift defences.|За дверями лифта разбитый коридор. Обломки сложены в укрепления.
+elevator doors open to an empty corridor.|Двери лифта открываются в пустой коридор.
+emergency lighting flickers.|Мерцает аварийное освещение.
+empty corridors.|Пустые коридоры.
+engage|Вступить в бой
+engineering|Инженерный отсек
+epidemic is eradicated eventually|Эпидемия наконец отступила.
+experimental plans cover one wall, held by an unseen force.|На стене невидимая сила удерживает чертежи опытных устройств.
+explore|Исследовать
+extinguish|Тушить
+eye for an eye seems fair.|Око за око. Справедливо.
+faces, darkened by soot and blood, stare out from crooked huts.|Из кривых хижин смотрят лица, черные от копоти и крови.
+feral howls echo out of the darkness.|Из тьмы доносится звериный вой.
+fight|Сражаться
+fighting hadn't reached here, it seems.|Похоже, бои сюда не дошли.
+fires burn in the courtyard beyond.|За ним во дворе горят костры.
+force locker|Вскрыть шкаф
+found some medical supplies in a discarded bag.|В брошенной сумке нашлись медицинские припасы.
+further along, the corridor branches.|Дальше коридор разветвляется.
+hinges rusted through. no challenge.|Петли проржавели насквозь. Несложно.
+if only they'd been destroyed along with everything else.|Лучше бы их уничтожили вместе со всем остальным.
+immortal wanderer|Бессмертный странник
+in a flash, the figure is standing.|Мгновение - и фигура уже стоит.
+inside the hut, a child cries.|В хижине плачет ребенок.
+inside, the remains of its victims are everywhere.|Внутри повсюду останки его жертв.
+it contains travelling gear, and a few trinkets.|Внутри дорожное снаряжение и несколько безделушек.
+it had friends.|У него были друзья.
+it lists to the side in a deep crevasse, cut when it fell from the sky.|Он кренится в глубокой расселине, прорытой при падении с неба.
+it says it saw the rebellion coming. said it made arrangements.|Говорит, что предвидел восстание. Что подготовился.
+it's been picked over by scavengers, but there's still some things worth taking.|Сборщики уже обыскали его, но кое-что еще стоит взять.
+it's no mystery why she no longer flies.|Ясно, почему он больше не летает.
+its final works lie forgotten, covered by a thin layer of dust.|Его последние работы забыты под тонким слоем пыли.
+just as deadly now as they were then.|Они столь же смертоносны, как прежде.
+large barricades bisect the corridor, scorched by weapons fire.|Коридор пересекают большие обожженные баррикады.
+leave city|Уйти из города
+leave town|Уйти из городка
+lets some light down into the dusty haze.|Вниз, в пыльную дымку, пробивается свет.
+lights flash through the alleys between buildings.|В переулках между домами мелькают огни.
+looks like a camp of sorts up ahead.|Впереди что-то вроде лагеря.
+looks like a way out of here.|Кажется, это выход.
+looks like they tried to barricade the elevators.|Похоже, они пытались забаррикадировать лифты.
+lucky that the natives can't work the mechanisms.|Повезло, что местные не умеют обращаться с механизмами.
+lucky.|Повезло.
+malformed experiment|Уродливый подопытный
+maps of the surface can still be found amongst the debris.|Среди обломков еще можно найти карты поверхности.
+marks on the door read 'research and development.' everything seems mostly untouched, but dead.|На двери написано: исследования и разработки. Все нетронуто, но мертво.
+martial|Боевой отсек
+maybe some useful stuff in the rubble.|В обломках может быть что-то полезное.
+mechanical guard|Механический страж
+mechanical quadruped|Четвероногая машина
+medical|Медицинский отсек
+medical gurneys are fixed to grooves running down the corridor walls.|Медицинские каталки закреплены на направляющих вдоль стен.
+men mill about, weapons at the ready.|Люди ходят с оружием наготове.
+metal grinds, and the elevator doors open halfway. beyond is a brightly lit battlefield. remains litter the corridor, undisturbed by scavengers.|Двери лифта со скрежетом расходятся наполовину. За ними освещенное поле боя. Сборщики еще не тронули останки в коридоре.
+might be something useful here.|Здесь может быть что-то полезное.
+might be things worth having still inside.|Внутри еще могут быть ценные вещи.
+more medical robots stand frozen, attached by a network of wires.|Другие медицинские роботы застыли, опутанные проводами.
+more signs of past combat down the hall. guard post is ransacked.|Дальше еще следы боя. Пост охраны разграблен.
+more soldiers will be on their way.|Скоро придут другие солдаты.
+more squatters are crowding around now.|Вокруг собирается все больше поселенцев.
+more strange graffiti adorns the walls.|На стенах снова странные надписи.
+more voices can be heard ahead.|Впереди слышны новые голоса.
+most of the windows at ground level are busted anyway.|Большинство окон первого этажа и так разбито.
+motion from the centre of the yard.|В центре двора что-то движется.
+murderous robot|Робот-убийца
+must have been the engine room, once. the massive machines now stand inert, twisted and scorched by explosions.|Когда-то здесь было машинное отделение. Огромные механизмы мертвы, искорежены и обожжены взрывами.
+noises can be heard from the corridor outside.|Из коридора доносятся звуки.
+none of the ship's engines escaped the destruction.|Ни один двигатель корабля не уцелел.
+not much here.|Здесь немногое осталось.
+nothing but downcast eyes.|Лишь опущенные глаза.
+nothing more here.|Больше здесь ничего нет.
+nothing was found|Ничего не найдено.
+observe|Наблюдать
+one machine thrums with power, and might still work.|Одна машина гудит. Возможно, еще работает.
+one of the defence turrets still works.|Одна защитная турель еще работает.
+only dust and stains remain.|Остались лишь пыль и пятна.
+only the chief remains.|Остался только вождь.
+orange traffic cones are set across the street, faded and cracked.|Улицу перегораживают выцветшие, потрескавшиеся дорожные конусы.
+past the checkpoint, banks of containment cells can be seen.|За постом видны ряды изолированных камер.
+past the checkpoint, the corridor is undamaged save for sporadic graffiti.|За постом коридор цел. Лишь кое-где надписи на стенах.
+perhaps the ship’s systems are still operational.|Возможно, системы корабля еще работают.
+picked this deck clean.|Эту палубу обобрали подчистую.
+picking the bones finds some useful trinkets.|Среди костей нашлись полезные мелочи.
+population is almost exterminated|Почти все население погибло.
+power cables running across the ceiling are split in several places, sparking occasionally.|Кабели под потолком местами разорваны и искрят.
+power cycle|Перезапустить питание
+predators become prey. price is unfair|Хищники стали добычей. Цена несправедлива.
+predictable paths.|Предсказуемые маршруты.
+ran straight into another one.|Наткнулся прямо на еще одного.
+rows of inert security robots hang suspended from the ceiling.|Под потолком рядами висят неподвижные охранные роботы.
+ruined defence turrets flank the corridor.|По сторонам коридора разбитые защитные турели.
+run|Бежать
+rush through|Проскочить
+rusted chainlink is pulled across an alleyway.|Переулок перегорожен ржавой сеткой.
+salvage|Собрать уцелевшее
+samples of something biological inside.|Внутри биологические образцы.
+says he can build you a hut for less wood|Говорит, что построит хижину за меньшее число дров.
+says it can't die.|Говорит, что не может умереть.
+scavenge maps|Собрать карты
+scavenger had a small camp in the school.|У сборщика был маленький лагерь в школе.
+scavenger'd been looking for supplies in here, it seems.|Похоже, сборщик искал здесь припасы.
+scavengers must have gotten to this place already.|Сборщики, должно быть, уже побывали здесь.
+scraps of copper wire litter the floor.|На полу обрывки медной проволоки.
+searching the bodies yields a few supplies.|На телах нашлось немного припасов.
+security drones still patrol the hallways.|Охранные дроны все еще патрулируют коридоры.
+security is even tighter here.|Здесь охрана еще плотнее.
+should be able to open it.|Должно получиться открыть.
+shuffling noises can be heard from within.|Изнутри слышно шарканье.
+slice|Рассечь
+slipped past an automated sentry.|Удалось проскользнуть мимо автоматического часового.
+slipped through unnoticed.|Удалось пройти незамеченным.
+small sensors in the walls still look to be operational.|Маленькие датчики в стенах, похоже, еще работают.
+small weapons cache in a cabinet.|В шкафу небольшой тайник с оружием.
+soldiers patrol the perimeter, rifles slung over their shoulders.|Солдаты обходят периметр с винтовками за плечами.
+some completed explosives in the corner.|В углу несколько готовых зарядов.
+some good stuff woven into its nest.|В гнездо вплетены полезные вещи.
+some medicine abandoned in the drawers.|В ящиках остались лекарства.
+some villagers are ill|Некоторые жители заболели.
+someone had been stockpiling loot here.|Кто-то складывал здесь добычу.
+someone has locked and barricaded the door to this operating theatre.|Кто-то запер и забаррикадировал операционную.
+someone throws a stone.|Кто-то бросает камень.
+something moving up ahead.|Впереди что-то движется.
+something's causing a commotion a ways down the road.|Дальше по дороге какая-то суматоха.
+something's wrong with this robot.|С этим роботом что-то не так.
+sometimes it is best to fight without restraint.|Иногда лучше сражаться без ограничений.
+somtimes it is best not to fight.|Иногда лучше не сражаться.
+sparks cascade from a reactivated power junction, and catch.|Из включенного узла питания сыплются искры. Вспыхивает огонь.
+step inside, and the machine whirs. muscle and bone reknit. good as new.|Шаг внутрь - и машина гудит. Мышцы и кости срастаются. Как новенький.
+still a few drops of water in the old well.|В старом колодце еще осталось немного воды.
+still time to rescue a few supplies.|Еще можно спасти немного припасов.
+still, some things can be found.|И все же кое-что можно найти.
+strange.|Странно.
+street above the subway platform is blown away.|Улица над платформой метро разрушена взрывом.
+strips of meat are hung up to dry in this ward.|В этой палате развешаны полоски мяса для сушки.
+strips of meat hang drying by the side of the street.|Вдоль улицы сушатся полоски мяса.
+stun|Оглушить
+sufferers are healed|Больные выздоровели.
+sufferers are left to die|Больных оставили умирать.
+surgical tools are scattered on the floor, near what appears the be the remains of a fire.|На полу возле остатков костра разбросаны хирургические инструменты.
+take device and leave|Взять прибор и уйти
+the air in this room has a metallic tinge. floor is covered in dark powder.|В воздухе металлический запах. Пол покрыт темным порошком.
+the air is cooler here. low cabinets ring the room, doors dusted with frost.|Здесь прохладнее. Вдоль стен низкие шкафы с заиндевелыми дверцами.
+the air is filled with dust, driven relentlessly by the hard winds.|Сильный ветер неустанно гонит пыль.
+the automated patient transport system now sits motionless.|Система перевозки пациентов теперь неподвижна.
+the beast is dead.|Зверь мертв.
+the blade hums, charged particles sparking and fizzing.|Клинок гудит. Заряженные частицы шипят и искрят.
+the blast throws the door inwards.|Взрыв выбивает дверь внутрь.
+the bodies of the wanderers that lived here are still visible in the flames.|В пламени еще видны тела живших здесь странников.
+the camp is still, save for the crackling of the fires.|Лагерь затих. Лишь потрескивают костры.
+the cells are all empty.|Все камеры пусты.
+the clinic has been ransacked.|Клинику разграбили.
+the coal mine is clear of dangers|Угольная шахта освобождена.
+the command deck is empty, save for a squat figure sitting motionless in the centre of the room.|Командная палуба пуста. В центре неподвижно сидит приземистая фигура.
+the corridor is eerily silent.|В коридоре жуткая тишина.
+the corridor leads to a bank of elevators, which appear to be functional.|Коридор ведет к ряду лифтов. Похоже, они исправны.
+the corridor opens onto a vast training complex, obstacles and features blackened by real combat.|Коридор выходит в огромный учебный комплекс. Препятствия почернели от настоящих боев.
+the corridor passes through a security checkpoint. the defences are blown apart, ragged edges scorched by laser fire.|Коридор проходит через пост охраны. Укрепления разнесены, рваные края оплавлены лазерами.
+the creature's tortured breathing ceases.|Мучительное дыхание твари прекращается.
+the crowd surges forward.|Толпа бросается вперед.
+the crystal pulses brightly, then goes dark. the assailant shimmers as its shape becomes less defined.|Кристалл ярко вспыхивает и гаснет. Очертания противника мерцают и расплываются.
+the darkness is absolute|Полная темнота.
+the debris is denser here.|Здесь обломков больше.
+the destruction is uniform and precise.|Разрушения равномерны и точны.
+the door hangs open.|Дверь открыта.
+the door to the left is sealed and refuses to open.|Дверь слева заперта и не поддается.
+the double doors creak endlessly in the wind.|Двустворчатые двери бесконечно скрипят на ветру.
+the familiar curves of a wanderer vessel rise up out of the dust and ash. |Из пыли и пепла выступают знакомые очертания корабля странников.
+the flames fill the corridor.|Пламя заполняет коридор.
+the footsteps stop.|Шаги затихают.
+the ground is littered with small teeth|Земля усеяна мелкими зубами.
+the guards died at their posts, shot through with superheated plasma.|Стражи погибли на постах, пронзенные раскаленной плазмой.
+the hatches are all sealed, but the hull is blown out just above the dirt, providing an entrance.|Все люки заперты, но над самой землей в корпусе пробоина. Можно войти.
+the house has been ransacked.|Дом разграблен.
+the house is abandoned, but not yet picked over.|Дом брошен, но еще не разграблен.
+the immortal wanderer attacks.|Бессмертный странник нападает.
+the interior of the ship is cold and dark. what little light there is only accentuates its harsh angles.|Внутри корабля холодно и темно. Скудный свет лишь подчеркивает острые углы.
+the iron mine is clear of dangers|Железная шахта освобождена.
+the machine attacks, blades whirling.|Машина нападает, вращая лезвиями.
+the machines here look unfinished, abandoned by their creator. wires and other scrap are scattered about the work benches.|Машины выглядят недоделанными и брошенными создателем. Верстаки усеяны проводами и хламом.
+the military has set up a small camp just inside the ship.|Сразу за входом в корабль солдаты разбили небольшой лагерь.
+the military is already set up at the mine's entrance.|У входа в шахту уже расположились военные.
+the military presence has been cleared.|Военных больше нет.
+the mine is now safe for workers.|Теперь шахта безопасна для рабочих.
+the nest of a large animal lies at the back of the cave.|В глубине пещеры логово большого животного.
+the next door leads to a ransacked planning room.|Следующая дверь ведет в разграбленную комнату планирования.
+the noise draws attention.|Шум привлекает внимание.
+the old man had a small cache of interesting items.|У старика был тайник с интересными вещами.
+the old tower seems mostly intact.|Старая башня почти цела.
+the operating theatre has a lot of curious equipment.|В операционной много занятного оборудования.
+the owner stands by, stoic.|Хозяин невозмутимо стоит рядом.
+the partially devoured remains of several wanderers are piled before a dark corridor.|Перед темным коридором свалены объеденные останки нескольких странников.
+the path leads to an abandoned mine|Тропа ведет к заброшенной шахте.
+the path to the command bridge is wide, walls adorned with decorative shields.|К командному мостику ведет широкий проход. Стены украшены щитами.
+the peak of wanderer weapons technology, sleek and deadly.|Вершина оружейной технологии странников. Изящная и смертоносная.
+the people back away, avoiding eye contact.|Люди отступают, избегая взгляда.
+the people here were broken a long time ago.|Здешних людей сломили давным-давно.
+the place has been swept clean by scavengers.|Сборщики вычистили это место.
+the remaining settlers flee from the violence, their belongings forgotten.|Оставшиеся поселенцы бегут от насилия, бросив вещи.
+the remains of a huge ship are embedded in the earth.|Останки огромного корабля врезались в землю.
+the remains of a massive battleship lie here, like a silent sealed city.|Здесь лежит огромный линкор, словно безмолвный запертый город.
+the remains of an old house stand as a monument to simpler times|Остатки старого дома напоминают о более простых временах.
+the rest of the hospital is empty.|Остальная больница пуста.
+the ruins of the sparring machine clatter to the ground.|Обломки тренировочной машины грохочут на пол.
+the shady builder builds a hut|Подозрительный строитель построил хижину.
+the shady builder has made off with your wood|Подозрительный строитель сбежал с дровами.
+the shell of a burned out car blocks the entrance.|Вход перекрывает остов сгоревшей машины.
+the shell of an abandoned hospital looms ahead.|Впереди возвышается остов заброшенной больницы.
+the shot echoes in the empty street.|Выстрел эхом разносится по пустой улице.
+the small military outpost is well supplied.|На небольшом военном посту много припасов.
+the small settlement has clearly been burning a while.|Небольшое поселение явно горит уже давно.
+the soldier steps out from between the buildings, rifle raised.|Из-за домов выходит солдат с поднятой винтовкой.
+the sound of gunfire carries on the wind.|Ветер доносит звуки выстрелов.
+the stench of rot and death fills the operating theatres.|Операционные полны смрада гнили и смерти.
+the street ahead glows with firelight.|Улица впереди освещена огнем.
+the streets are empty.|Улицы пусты.
+the sulphur mine is clear of dangers|Серная шахта освобождена.
+the tentacular horror is defeated.|Щупальчатое чудовище повержено.
+the torch goes out|Факел гаснет.
+the torch sputters and dies in the damp air|Факел шипит и гаснет во влажном воздухе.
+the torchlight casts a flickering glow down the hallway.|Свет факела мерцает в коридоре.
+the towers of a decaying city dominate the skyline|Над горизонтом возвышаются башни разрушающегося города.
+the towers that haven't crumbled jut from the landscape like the ribcage of some ancient beast.|Уцелевшие башни торчат, словно ребра древнего зверя.
+the town lies abandoned, its citizens long dead|Городок покинут. Его жители давно мертвы.
+the tunnel opens up at another platform.|Туннель выходит на другую платформу.
+the walls are scorched and melted.|Стены обожжены и оплавлены.
+the walls are scorched from an old battle.|Стены обожжены в давней битве.
+the walls hum faintly.|Стены тихо гудят.
+the warped man lies dead.|Искалеченный человек мертв.
+the webs part, and a grotesque insect lurches forward.|Паутина расходится. Вперед вываливается уродливое насекомое.
+the workhorse of the wanderer fleet.|Рабочая лошадка флота странников.
+the young settler was carrying a canvas sack.|Молодой поселенец нес холщовый мешок.
+their weapons lie on the floor beside them.|Оружие лежит на полу рядом с ними.
+then it is gone.|И затем исчезает.
+there is nothing else here.|Больше здесь ничего нет.
+there was a beast. it's dead now|Здесь был зверь. Теперь он мертв.
+there was no fighting here.|Здесь не было боев.
+there's not much, but some useful things can still be found.|Немногое осталось, но полезные вещи еще есть.
+there's nothing else here.|Больше здесь ничего нет.
+they must be here for a reason.|Должно быть, они здесь не случайно.
+they take no notice of the intrusion.|Они не замечают вторжения.
+they took what they came for, and left.|Они взяли, зачем пришли, и ушли.
+thick, sticky webbing covers the walls of the corridor.|Стены коридора покрыты густой липкой паутиной.
+this old mine is not abandoned|Эта старая шахта не заброшена.
+this one looks interesting.|Это выглядит интересно.
+this one looks useful.|Это выглядит полезным.
+this ward has been converted to a makeshift strategy room, maps scrawled hastily on any flat surface.|Палату превратили в штаб. На каждой плоской поверхности наспех начертаны карты.
+through the bulkhead is a large room, walls lined with weapon racks. fighting seems to have passed it by.|За переборкой большой зал со стойками оружия вдоль стен. Бои, похоже, обошли его.
+through the large gymnasium doors, footsteps can be heard.|За большими дверями спортзала слышны шаги.
+time to get out of here.|Пора выбираться.
+time to move on.|Пора идти дальше.
+tripped a motion sensor.|Сработал датчик движения.
+troops storm the village|Солдаты штурмуют деревню.
+two bedrolls are wedged into a corner.|В углу два спальных мешка.
+two-headed creature|Двуглавая тварь
+unruly welder|Неуправляемый сварщик
+unstable automaton|Нестабильный автомат
+unstable prototype|Нестабильный прототип
+use machine|Использовать машину
+wanderer form, but not quite flesh. not quite metal either. a crystal set into its chest pulses with light.|Облик странника, но не совсем плоть. И не совсем металл. В груди пульсирует кристалл.
+wanderer soldiers succeed by subverting the enemy's rage.|Солдаты странников обращают ярость врага против него самого.
+warfare is bloodthirsty|Война кровожадна.
+water out, water in. waste not, want not.|Вода выходит, вода возвращается. Ничто не пропадает.
+weapons are strewn about the medical dispatch bay. must have been used as a muster point.|В приемном отделении разбросано оружие. Здесь, должно быть, был сборный пункт.
+where the windows of the schoolhouse aren't shattered, they're blackened with soot.|Уцелевшие окна школы черны от копоти.
+wild beasts attack the villagers|Дикие звери нападают на жителей.
+wires run overhead, corroded and useless.|Над головой тянутся изъеденные коррозией, бесполезные провода.
+with a little effort, it might fly again.|Немного труда - и он снова полетит.
+worth killing for, it seems.|Похоже, ради этого стоило убить.
+energy blade|Энергоклинок
+fluid recycler|Регенератор воды
+cargo drone|Грузовой дрон
+kinetic armour|Кинетическая броня
+disruptor|Подавитель
+hypo|Инъектор
+stim|Стимулятор
+plasma rifle|Плазменная винтовка
+glowstone|Светокамень
+hypo blueprint|Чертеж инъектора
+kinetic armour blueprint|Чертеж кинетической брони
+plasma rifle blueprint|Чертеж плазменной винтовки
+disruptor blueprint|Чертеж подавителя
+glowstone blueprint|Чертеж светокамня
+stim blueprint|Чертеж стимулятора
+hp|Здоровье
+fleet beacon|Маяк флота
+unarmed|Без оружия
+boxer|Боксер
+martial artist|Мастер боя
+unarmed master|Мастер рукопашного боя
+
+# Correct upstream material name to match ship/fabricator terminology.
+alien alloy|инопланетный сплав

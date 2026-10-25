@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "defaults": {
+    "FIRE": 4,
+    "TEMPERATURE": 4,
+    "BUILDER": 4,
+    "FOREST": 1,
+    "POP_DELAY": 90,
+    "EVENT_DELAY": 240,
+    "SCENE_ID": 65535,
+    "THRUSTERS": 1
+  },
+  "slots": [
+    {
+      "slot": 2,
+      "description": "First expedition: packed and ready; Enter leaves the village.",
+      "seed": 16962,
+      "state": {"TAB": 6, "SELECTED": 0, "POPULATION": 20, "HP": 15, "WATER": 20},
+      "stores": {
+        "wood": 2000, "fur": 1000, "meat": 1000, "scales": 100,
+        "teeth": 100, "cloth": 100, "leather": 200, "cured meat": 300,
+        "medicine": 20, "bait": 100, "torch": 30, "bone spear": 2,
+        "compass": 1, "waterskin": 1, "rucksack": 1, "l armour": 1
+      },
+      "bag": {"cured meat": 12, "torch": 2, "bone spear": 1, "medicine": 2},
+      "buildings": {
+        "trap": 10, "cart": 1, "hut": 5, "lodge": 1,
+        "trading post": 1, "tannery": 1, "smokehouse": 1, "workshop": 1
+      },
+      "jobs": {"hunter": 5, "tanner": 2, "charcutier": 3},
+      "flags": [],
+      "perks": [],
+      "reveal_map": false
+    },
+    {
+      "slot": 3,
+      "description": "Spaceship: repaired hull, upgraded engines; Enter launches.",
+      "seed": 20817,
+      "state": {"TAB": 7, "SELECTED": 2, "POPULATION": 80, "HP": 45, "WATER": 60, "HULL": 50, "THRUSTERS": 5},
+      "stores": {
+        "wood": 10000, "fur": 5000, "meat": 5000, "scales": 1000,
+        "teeth": 1000, "cloth": 1000, "leather": 2000, "cured meat": 2000,
+        "iron": 2000, "coal": 2000, "steel": 1000, "sulphur": 1000,
+        "bullets": 500, "medicine": 100, "bait": 1000, "torch": 100,
+        "alien alloy": 1000, "compass": 1, "water tank": 1, "convoy": 1,
+        "s armour": 1, "steel sword": 1, "rifle": 1
+      },
+      "bag": {},
+      "buildings": {
+        "trap": 10, "cart": 1, "hut": 20, "lodge": 1, "trading post": 1,
+        "tannery": 1, "smokehouse": 1, "workshop": 1, "steelworks": 1, "armoury": 1
+      },
+      "jobs": {"hunter": 10, "tanner": 5, "charcutier": 10, "iron miner": 5, "coal miner": 5, "sulphur miner": 5, "steelworker": 5, "armourer": 5},
+      "flags": ["ship", "ironmine", "coalmine", "sulphurmine"],
+      "perks": ["scout"],
+      "reveal_map": true
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+; Live eight-way bearing to the landmark, without exposing fogged map cells.
+; The original 2:1 axis threshold is retained, relative to the current position.
+DRAW_COMPASS:
+ CLR R0
+1$: CMPB WORLD_MAP(R0),#12 ; ship terrain code 10 decimal
+ BEQ 2$
+ INC R0
+ CMP R0,#3721.
+ BLO 1$
+ RETURN
+2$: MOV R0,R1
+ CLR R0
+ DIV #61.,R0 ; R0=y, R1=x
+ SUB POS_Y,R0
+ SUB POS_X,R1
+ MOV #3,R4
+ MOV #1,R5
+ TST R0
+ BEQ 4$
+ BPL 3$
+ CLR R4
+ NEG R0
+ BR 4$
+3$: MOV #6,R4
+4$: TST R1
+ BEQ 6$
+ BPL 5$
+ CLR R5
+ NEG R1
+ BR 6$
+5$: MOV #2,R5
+6$: MOV R0,R2
+ ASL R2
+ CMP R1,R2
+ BLE 7$
+ MOV #3,R4 ; predominantly horizontal
+7$: ASL R1
+ CMP R0,R1
+ BLE 8$
+ MOV #1,R5 ; predominantly vertical
+8$: ADD R5,R4
+ ASL R4
+ MOV #48.,R0
+ MOV #6,R1
+ CALL AT
+ MOV #S_COMPASS_LABEL,R1
+ CALL PUTS
+ MOV #48.,R0
+ MOV #8.,R1
+ CALL AT
+ MOV COMPASS_TEXT(R4),R1
+ JMP PUTS
+COMPASS_TEXT:
+ .WORD S_DIR_NW,S_DIR_N,S_DIR_NE,S_DIR_W,S_DIR_HERE,S_DIR_E
+ .WORD S_DIR_SW,S_DIR_S,S_DIR_SE

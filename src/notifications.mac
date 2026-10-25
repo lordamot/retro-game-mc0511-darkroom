@@ -1,0 +1,109 @@
+; Five recent messages, newest first. Copy text so scene reloads cannot
+; invalidate it. Current row lasts 30 seconds; superseded rows fade within 15.
+; NOTICE is the input pointer; preserve every caller register.
+NOTIFY:
+ MOV R0,-(SP)
+ MOV R1,-(SP)
+ MOV R2,-(SP)
+ MOV R3,-(SP)
+ MOV NOTICE,R3
+ BEQ 4$
+ TSTB (R3)
+ BEQ 4$
+ MOV #LOG_TEXT+320.,R0
+ MOV #LOG_TEXT+400.,R1
+ MOV #160.,R2
+1$: MOV -(R0),-(R1)
+ SOB R2,1$
+ MOV #LOG_AGE+8.,R0
+ MOV #LOG_AGE+10.,R1
+ MOV #4,R2
+2$: MOV -(R0),-(R1)
+ SOB R2,2$
+ ; Only the displaced current row starts a new, shorter fade. Never refresh
+ ; older records or extend the remaining lifetime of an already fading row.
+ CMP LOG_AGE+2,#150.
+ BLOS 21$
+ MOV #150.,LOG_AGE+2
+21$:
+ MOV #300.,LOG_AGE
+ MOV #LOG_TEXT,R0
+ MOV #78.,R2
+3$: MOVB (R3)+,(R0)+
+ BEQ 31$
+ SOB R2,3$
+ CLRB (R0)
+31$: MOV #1,DIRTY
+4$: MOV (SP)+,R3
+ MOV (SP)+,R2
+ MOV (SP)+,R1
+ MOV (SP)+,R0
+ RETURN
+
+LOG_TICK:
+ MOV #LOG_AGE,R0
+ MOV #LOG_TEXT,R1
+ MOV #5,R2
+1$: TST (R0)
+ BEQ 2$
+ DEC (R0)
+ BNE 2$
+ CLRB (R1)
+ MOV #1,DIRTY
+2$: ADD #2,R0
+ ADD #80.,R1
+ SOB R2,1$
+ RETURN
+
+DRAW_LOG:
+ ; These full-screen views hide the log. Help also pauses its timers.
+ CMP TAB,#9.
+ BEQ LOG_WHITE
+ CMP TAB,#11.
+ BEQ LOG_WHITE
+ CMP TAB,#12.
+ BEQ LOG_WHITE
+ MOV #LOG_TEXT,R4
+ MOV #18.,R5
+1$: MOV R5,R0
+ SUB #18.,R0
+ ASL R0
+ MOV LOG_AGE(R0),R1
+ CLR R2
+ TST R1
+ BEQ 20$
+ MOV #1,R2
+ TST R0
+ BNE 11$
+ ; Newest stays white for 25 seconds, then fades before its own expiry.
+ CMP R1,#25.
+ BLOS 20$
+ INC R2
+ CMP R1,#50.
+ BLOS 20$
+ MOV #4,R2
+ BR 20$
+ ; Every non-current row is clearly gray immediately, even identical text.
+11$: CMP R1,#75.
+ BLOS 20$
+ INC R2
+20$: MOV R2,LOG_SHADE(R0)
+ MOV #1,R0
+ MOV R5,R1
+ CALL AT
+ MOV R4,R1
+ CALL PUTS
+ ADD #80.,R4
+ INC R5
+ CMP R5,#23.
+ BLO 1$
+3$: RETURN
+
+LOG_WHITE:
+ ; Do this only on hidden-log views. Publishing temporary white shades during
+ ; ordinary redraws let the PPU timer briefly brighten old messages again.
+ MOV #LOG_SHADE,R0
+ MOV #5,R1
+1$: MOV #4,(R0)+
+ SOB R1,1$
+ RETURN
